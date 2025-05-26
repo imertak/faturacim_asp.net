@@ -1,0 +1,11 @@
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\bin\Debug\net8.0\faturacim.Domain.deps.json
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\bin\Debug\net8.0\faturacim.Domain.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\bin\Debug\net8.0\faturacim.Domain.pdb
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\faturacim.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\faturacim.Domain.AssemblyInfoInputs.cache
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\faturacim.Domain.AssemblyInfo.cs
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\faturacim.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\faturacim.Domain.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\refint\faturacim.Domain.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\faturacim.Domain.pdb
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\ref\faturacim.Domain.dll

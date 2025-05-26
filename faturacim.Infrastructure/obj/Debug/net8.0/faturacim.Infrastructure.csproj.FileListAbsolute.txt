@@ -1,0 +1,17 @@
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\bin\Debug\net8.0\faturacim.Infrastructure.deps.json
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\bin\Debug\net8.0\faturacim.Infrastructure.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\bin\Debug\net8.0\faturacim.Infrastructure.pdb
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\bin\Debug\net8.0\faturacim.Business.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\bin\Debug\net8.0\faturacim.Domain.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\bin\Debug\net8.0\faturacim.Business.pdb
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\bin\Debug\net8.0\faturacim.Domain.pdb
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\faturacim.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\faturacim.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\faturacim.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\faturacim.Infrastructure.AssemblyInfo.cs
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\faturacim.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\faturaci.E0F0B3BF.Up2Date
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\faturacim.Infrastructure.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\refint\faturacim.Infrastructure.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\faturacim.Infrastructure.pdb
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\ref\faturacim.Infrastructure.dll

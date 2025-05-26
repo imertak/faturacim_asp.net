@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "V9BcznqZGwnNbo+qDAZbC3bKRdGPEirX9ksCb4ZeSUA=",
+  "Source": "faturacim.Api",
+  "BasePath": "_content/faturacim.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

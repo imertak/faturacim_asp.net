@@ -1,0 +1,17 @@
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\bin\Debug\net8.0\faturacim.Business.deps.json
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\bin\Debug\net8.0\faturacim.Business.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\bin\Debug\net8.0\faturacim.Business.pdb
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\bin\Debug\net8.0\faturacim.Domain.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\bin\Debug\net8.0\faturacim.Domain.pdb
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturacim.Business.csproj.AssemblyReference.cache
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturacim.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturacim.Business.AssemblyInfoInputs.cache
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturacim.Business.AssemblyInfo.cs
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturacim.Business.csproj.CoreCompileInputs.cache
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturaci.9406A6EA.Up2Date
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturacim.Business.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\refint\faturacim.Business.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturacim.Business.pdb
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\ref\faturacim.Business.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\bin\Debug\net8.0\faturacim.Business.runtimeconfig.json
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturacim.Business.genruntimeconfig.cache
