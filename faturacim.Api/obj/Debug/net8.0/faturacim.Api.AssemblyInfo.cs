@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("faturacim.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+822cb991ce3e9de43c2e9326b651bb8ba2d5285a")]
 [assembly: System.Reflection.AssemblyProductAttribute("faturacim.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("faturacim.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,3 +9,4 @@ C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\f
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\refint\faturacim.Domain.dll
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\faturacim.Domain.pdb
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\ref\faturacim.Domain.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Domain\obj\Debug\net8.0\faturacim.Domain.sourcelink.json

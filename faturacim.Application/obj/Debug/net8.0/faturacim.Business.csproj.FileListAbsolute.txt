@@ -15,3 +15,4 @@ C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\ref\faturacim.Business.dll
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\bin\Debug\net8.0\faturacim.Business.runtimeconfig.json
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturacim.Business.genruntimeconfig.cache
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Application\obj\Debug\net8.0\faturacim.Business.sourcelink.json

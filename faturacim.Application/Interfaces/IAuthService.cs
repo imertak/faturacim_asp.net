@@ -1,4 +1,6 @@
 ﻿using faturacim.Business.Dto;
+using faturacim.Domain.Dtos;
+using faturacim.Domain.Entities;
 
 namespace faturacim.Business.Interfaces
 {
@@ -9,5 +11,7 @@ namespace faturacim.Business.Interfaces
     {
         Task<bool> RegisterAsync(RegisterDto dto);
         Task<string?> LoginAsync(LoginDto dto);
+        Task<User?> GetUserInfoByEmailAsync(string email);
+        Task<bool> UpdateUserProfile(UpdateProfileDto model);
     }
 }

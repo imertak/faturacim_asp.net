@@ -1,5 +1,4 @@
-﻿
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace faturacim.Domain.Entities
 {
@@ -16,8 +15,17 @@ namespace faturacim.Domain.Entities
         [Required, MaxLength(150)]
         public string Email { get; set; } = string.Empty;
 
+        [Required, MaxLength(20)]
+        public string PhoneNumber { get; set; } = string.Empty;
+
         [Required]
         public string PasswordHash { get; set; } = string.Empty;
+
+        [Required]
+        public Gender Gender { get; set; }
+
+        [Required]
+        public DateTime BirthDate { get; set; }
 
         public string Role { get; set; } = "User";
 
@@ -25,4 +33,29 @@ namespace faturacim.Domain.Entities
         public DateTime? LastLoginAt { get; set; }
     }
 
+    /// <summary>
+    /// Kullanıcı cinsiyet türlerini tanımlar
+    /// </summary>
+    public enum Gender
+    {
+        /// <summary>
+        /// Belirtilmemiş
+        /// </summary>
+        Unspecified = 0,
+
+        /// <summary>
+        /// Erkek
+        /// </summary>
+        Male = 1,
+
+        /// <summary>
+        /// Kadın
+        /// </summary>
+        Female = 2,
+
+        /// <summary>
+        /// Diğer
+        /// </summary>
+        Other = 3
+    }
 }

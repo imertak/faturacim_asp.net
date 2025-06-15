@@ -9,5 +9,7 @@ namespace faturacim.Domain.Interfaces
     {
         Task<User?> GetByEmailAsync(string email);
         Task AddAsync(User user);
+        Task<bool> UpdateUserProfileAsync(Domain.Dtos.UpdateProfileDto model);
+        Task<User?> GetByPhoneNumberAsync(string phoneNumber);
     }
 }

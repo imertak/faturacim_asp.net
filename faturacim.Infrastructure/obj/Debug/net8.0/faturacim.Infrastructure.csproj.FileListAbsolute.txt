@@ -15,3 +15,4 @@ C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\refint\faturacim.Infrastructure.dll
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\faturacim.Infrastructure.pdb
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\ref\faturacim.Infrastructure.dll
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Infrastructure\obj\Debug\net8.0\faturacim.Infrastructure.sourcelink.json

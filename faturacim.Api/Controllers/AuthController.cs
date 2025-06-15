@@ -1,5 +1,6 @@
 ﻿using faturacim.Business.Dto;
 using faturacim.Business.Interfaces;
+using faturacim.Domain.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace faturacim.Api.Controllers
@@ -31,5 +32,33 @@ namespace faturacim.Api.Controllers
             var token = await _authService.LoginAsync(dto);
             return token == null ? Unauthorized("Geçersiz giriş.") : Ok(new { token });
         }
+
+        [HttpGet("user-info")]
+        public async Task<IActionResult> GetUserInfo([FromQuery] string email)
+        {
+            var userInfo = await _authService.GetUserInfoByEmailAsync(email);
+            return userInfo != null
+                ? Ok(userInfo)
+                : NotFound("Kullanıcı bulunamadı.");
+        }
+
+        [HttpPut("update-profile")]
+        public async Task<IActionResult> UpdateProfile([FromBody] UpdateProfileDto model)
+        {
+            try
+            {
+                var result = await _authService.UpdateUserProfile(model);
+
+                if (result)
+                    return Ok(new { message = "Profil başarıyla güncellendi" });
+
+                return BadRequest(new { message = "Profil güncellenemedi" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
+
     }
 }
