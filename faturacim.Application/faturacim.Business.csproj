@@ -18,4 +18,15 @@
     <ProjectReference Include="..\faturacim.Domain\faturacim.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Templates\" />
+	 		  <Content Include="Templates\WelcomeEmail.html">
+			  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  </Content>
+	  <Content Include="Templates\ForgetPassword.html">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+
+  </ItemGroup>
+
 </Project>

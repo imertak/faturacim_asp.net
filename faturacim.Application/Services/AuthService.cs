@@ -3,6 +3,8 @@ using faturacim.Business.Interfaces;
 using faturacim.Domain.Dtos;
 using faturacim.Domain.Entities;
 using faturacim.Domain.Interfaces;
+using System.Net.Mail;
+using System.Net;
 using System.Reflection;
 
 namespace faturacim.Business.Services
@@ -41,9 +43,8 @@ namespace faturacim.Business.Services
                 // Eğer gelen değer "male" veya "female" gibi string ise
                 parsedGender = dto.Gender.ToLower() switch
                 {
-                    "male" => Gender.Male,
-                    "female" => Gender.Female,
-                    "other" => Gender.Other,
+                    "erkek" => Gender.Male,
+                    "kadın" => Gender.Female,
                     _ => Gender.Unspecified
                 };
             }
@@ -65,9 +66,48 @@ namespace faturacim.Business.Services
             {
                 await _userRepository.AddAsync(user);
 
+
+                string htmlPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Templates", "WelcomeEmail.html");
+
+                // Dosyayı oku
+                string htmlTemplate = await File.ReadAllTextAsync(htmlPath);
+
+                // [İsim] kısmını dinamik olarak doldur
+                string htmlBody = htmlTemplate.Replace("[İsim]", dto.FullName);
+
+
                 // Opsiyonel: Kayıt sonrası işlemler
                 //await _emailService.SendWelcomeEmailAsync(user.Email);
+                string smtpHost = "smtp.gmail.com"; // SMTP sunucu adresi
+                int smtpPort = 587; // SMTP portu (Gmail için 587)
+                string smtpUser = "imertakpinar0@gmail.com";
+                string smtpPass = "nika dxgy zlpn djbx"; // Gmail için uygulama şifresi gerekebilir
 
+                // Gönderilecek maili oluştur
+                MailMessage mail = new MailMessage();
+                mail.From = new MailAddress("imertakpinar0@gmail.com", "Mert Akpınar");
+                mail.To.Add(dto.Email);
+                mail.Subject = "Hoş Geldiniz";
+                mail.Body = htmlBody;
+                mail.IsBodyHtml = true; // HTML göndermek için true yapabilirsin
+
+                // SMTP client'ı ayarla
+                SmtpClient smtp = new SmtpClient(smtpHost, smtpPort)
+                {
+                    EnableSsl = true, // TLS kullanılır
+                    Credentials = new NetworkCredential(smtpUser, smtpPass)
+                };
+
+                try
+                {
+                    smtp.Send(mail);
+                    Console.WriteLine("Mail gönderildi!");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Hata oluştu: " + ex.Message);
+                    return true;
+                }
 
                 return true;
             }
@@ -77,6 +117,47 @@ namespace faturacim.Business.Services
                 throw new ApplicationException("Kullanıcı kaydı sırasında bir hata oluştu.");
             }
         }
+
+        public async Task ForgetPassword(string email)
+        {
+            string htmlPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Templates", "ForgetPassword.html");
+
+            // Dosyayı oku
+            string htmlTemplate = await File.ReadAllTextAsync(htmlPath);
+
+
+            string smtpHost = "smtp.gmail.com"; // SMTP sunucu adresi
+            int smtpPort = 587; // SMTP portu (Gmail için 587)
+            string smtpUser = "imertakpinar0@gmail.com";
+            string smtpPass = "nika dxgy zlpn djbx"; // Gmail için uygulama şifresi gerekebilir
+
+            // Gönderilecek maili oluştur
+            MailMessage mail = new MailMessage();
+            mail.From = new MailAddress("imertakpinar0@gmail.com", "Mert Akpınar");
+            mail.To.Add(email);
+            mail.Subject = "Hoş Geldiniz";
+            mail.Body = htmlTemplate;
+            mail.IsBodyHtml = true; // HTML göndermek için true yapabilirsin
+
+            // SMTP client'ı ayarla
+            SmtpClient smtp = new SmtpClient(smtpHost, smtpPort)
+            {
+                EnableSsl = true, // TLS kullanılır
+                Credentials = new NetworkCredential(smtpUser, smtpPass)
+            };
+
+            try
+            {
+                smtp.Send(mail);
+                Console.WriteLine("Mail gönderildi!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Hata oluştu: " + ex.Message);
+            }
+
+        }
+
 
         public async Task<string?> LoginAsync(LoginDto dto)
         {

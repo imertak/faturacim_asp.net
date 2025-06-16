@@ -180,3 +180,5 @@ C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Api\bin\Debug\net8.0\tr\M
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Api\obj\Debug\net8.0\faturacim.Api.sourcelink.json
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Api\bin\Debug\net8.0\Templates\WelcomeEmail.html
+C:\Users\Mert\Desktop\backend-.net\faturacim\faturacim.Api\bin\Debug\net8.0\Templates\ForgetPassword.html

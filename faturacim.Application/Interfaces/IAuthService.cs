@@ -13,5 +13,6 @@ namespace faturacim.Business.Interfaces
         Task<string?> LoginAsync(LoginDto dto);
         Task<User?> GetUserInfoByEmailAsync(string email);
         Task<bool> UpdateUserProfile(UpdateProfileDto model);
+        Task ForgetPassword(string email);
     }
 }

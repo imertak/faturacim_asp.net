@@ -26,6 +26,13 @@ namespace faturacim.Api.Controllers
             return success ? Ok("Kayıt başarılı") : BadRequest("Kullanıcı zaten mevcut.");
         }
 
+
+        [HttpPost("forgot-password")]
+        public async Task ForgotPassword([FromQuery] string email)
+        {
+            await _authService.ForgetPassword(email);
+        }
+
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto dto)
         {
